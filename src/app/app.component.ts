@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dw-angular';
+  property = '';
+
+  log(){
+    console.log(this.property)
+  }
 }
+
+
