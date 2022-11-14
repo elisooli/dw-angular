@@ -1,7 +1,11 @@
-.login{
-    margin-bottom: 15px;
-
+.grid{
+    height: 100vh;
+    align-items: center;
+    padding: 10px 50px;
 }
-.senha{
-    margin-bottom: 15px;
+.name{
+    border-bottom: 15px;
+}
+.password{
+    border-bottom: 15px;
 }
