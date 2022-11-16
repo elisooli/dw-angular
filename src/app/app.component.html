@@ -1,13 +1,17 @@
+<div class="container">
 <div class="grid">
   <div class="col-3"></div>
   <div class="col-6" style="display: flex; flex-direction: column;">
-    <input type="text" pInputText [(ngModel)]="property" placeholder="Name" />
-<br>
-    <input type="password" pPassword placeholder="Password" />
-<br>
-    <button pButton type="button" label="Login"></button>
+    <div class="description" >Bem-vindo!</div>
+    <div class="description" >Mantenha-se conectado conosco.</div>
+    <input class="name" type="text" pInputText [(ngModel)]="property" placeholder="Name" />
+    
+    <input class="pass" type="password" pPassword placeholder="Password" />
+
+    <button class="btn" pButton type="button" label="Login"></button>
   </div>
   <div class="col-3"></div>
+  </div>
 </div>
 
 

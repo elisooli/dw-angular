@@ -18,7 +18,8 @@ import {ButtonModule} from 'primeng/button';
     FormsModule,
     InputTextModule,
     PasswordModule,
-    ButtonModule
+    ButtonModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

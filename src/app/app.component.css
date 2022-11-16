@@ -1,11 +1,54 @@
+.container{
+    width: 1500px;
+    height: 3500px;
+}
 .grid{
     height: 100vh;
     align-items: center;
-    padding: 10px 50px;
+    justify-content: center;
 }
+.col-6{
+    background-color: rgb(97, 146, 153);
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+}
+.description{
+    font-family:Calibri;
+    text-align: justify;
+    color: white;
+    margin: 6px;
+}
+
 .name{
-    border-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    font-family:Calibri;
+    margin: 6px;
 }
-.password{
-    border-bottom: 15px;
+.pass{
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    font-family:Calibri;
+    margin: 6px;
 }
+.btn{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(97, 146, 153);
+    border:2px solid rgb(97, 146, 153);
+    border-radius: 10px;
+    position: relative;
+    width: 300px;
+    font-family:Calibri;
+    margin: 6px;
+}
+.btn:hover{
+    background-color:rgb(97, 146, 153) ;
+    border: 2px solid  white;
+}
+
