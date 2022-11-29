@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import {PasswordModule} from 'primeng/password';
 import {ButtonModule} from 'primeng/button';
 import {DividerModule} from 'primeng/divider';
+import {CardModule} from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import {DividerModule} from 'primeng/divider';
     PasswordModule,
     ButtonModule,
     DividerModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
