@@ -1,52 +1,39 @@
+.container{
+    width: 100vh;
+    background-color: #f1f1f1f1;
+}
 .grid{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color: #f1f1f1f1;
 }
-.col-6{
-    background-color: rgb(97, 146, 153);
-    padding: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.a{
     border-radius: 12px;
-    width: 35%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
 }
-.description{
-    font-family:Calibri;
-    text-align: justify;
-    color: white;
-    margin: 6px;
-    font-size: 28px;
+.b{
+    background-color: #f1f1f1f1;
 }
-
 .name{
-    border: none;
     border-radius: 10px;
-    
-    font-family:Calibri;
     margin: 6px;
+    display: flex;
+    flex-direction: column;
 }
 .pass{
-    border: none;
     border-radius: 10px;
-   
-    font-family:Calibri;
     margin: 6px;
+    display: flex;
+    flex-direction: column;
 }
 .btn{
     align-items: center;
     justify-content: center;
-    background-color: white;
-    color: rgb(97, 146, 153);
-    border:2px solid rgb(97, 146, 153);
-    border-radius: 10px;
-    position: relative;
-    
-    font-family:Calibri;
-    margin: 6px;
+    display: flex;
+    flex-direction: column;
 }
-.btn:hover{
-    background-color:rgb(97, 146, 153) ;
-    border: 2px solid  white;
-}
+
 

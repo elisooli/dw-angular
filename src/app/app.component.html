@@ -1,17 +1,16 @@
 <div class="container">
 <div class="grid">
-  <div class="col-3"></div>
-  <div class="col-6" style="display: flex; flex-direction: column;">
-    <div class="description" >Bem-vindo!</div>
-    <div class="description" >Mantenha-se conectado conosco.</div>
+  <div class="col-3 a">
     <input class="name" type="text" pInputText [(ngModel)]="property" placeholder="Name" />
     
     <input class="pass" type="password" pPassword placeholder="Password" />
 
-    <button class="btn" pButton type="button" label="Login"></button>
-  </div>
-  <div class="col-3"></div>
-  </div>
+    <p-button class="btn" label="Login"></p-button>
 </div>
+<p-divider class="col-6 b" layout="vertical"><b>OR</b></p-divider>
+  <p-button label="Sign Up" icon="pi pi-user-plus" styleClass="p-button-success"></p-button>
+</div>
+</div>
+
 
 

@@ -7,6 +7,7 @@ import {InputTextModule} from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import {PasswordModule} from 'primeng/password';
 import {ButtonModule} from 'primeng/button';
+import {DividerModule} from 'primeng/divider';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import {ButtonModule} from 'primeng/button';
     InputTextModule,
     PasswordModule,
     ButtonModule,
-   
+    DividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
